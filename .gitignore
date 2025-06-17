@@ -1,0 +1,47 @@
+
+# Anchor/Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock
+.anchor 
+test-ledger
+
+# IDL files (optional - you might want to commit these)
+# target/idl/
+# target/types/
+
+# Node modules 
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn 
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Solana keypairs (IMPORTANT - don't commit these!)
+*.json
+!package*.json
+!tsconfig.json
